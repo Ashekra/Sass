@@ -5,11 +5,11 @@ body {
     color: #2b86b9; }
     body h1:hover {
       color: #7abcd1; }
-    body h1 .button {
-      border-radius: 3px;
-      background-color: #2b86b9; }
-      body h1 .button a {
-        text-decoration: none;
-        color: white; }
+  body .button {
+    border-radius: 3px;
+    background-color: #2b86b9; }
+    body .button a {
+      text-decoration: none;
+      color: white; }
 
 /*# sourceMappingURL=style.css.map */

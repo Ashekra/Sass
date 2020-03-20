@@ -1,18 +1,18 @@
 body {
    background-color: #d5c8a2;
-      h1 {
-         text-align: center;
-         color: #2b86b9;
-         &:hover{
-            color: #7abcd1;
-         }
-      .button {
-         border-radius: 3px;
-         background-color: #2b86b9;
-            a {
-               text-decoration: none;
-               color: white;
-            }
+   h1 {
+      text-align: center;
+      color: #2b86b9;
+      &:hover{
+      color: #7abcd1;
       }
+      }
+   .button {
+   border-radius: 3px;
+   background-color: #2b86b9;
+      a {
+         text-decoration: none;
+         color: white;
+         }
       }
 }
