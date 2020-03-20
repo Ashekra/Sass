@@ -6,20 +6,20 @@ body {
       src: url("font/charlotte.otf");
    }
    nav {
+      background-color: #7abcd1;
+      img {
+         display: block;
+         width: 6%;
+         margin-right: 30%;
+      }
       ul {
          list-style-type: none;
          margin: 0;
          padding: .5%;
          overflow: hidden;
-         background-color: #7abcd1;
          display: flex;
          justify-content: start;
          align-items: center;
-         img {
-            display: block;
-            width: 6%;
-            margin-right: 30%;
-         }
          li {
             display: inline;
             a {
