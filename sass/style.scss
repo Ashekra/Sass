@@ -6,11 +6,12 @@ body {
       src: url("font/charlotte.otf");
    }
    nav {
-      background-color: #7abcd1;
       img {
          display: block;
-         width: 6%;
+         width: 50px;
+         height: 50px;
          margin-right: 30%;
+         float: left;
       }
       ul {
          list-style-type: none;
