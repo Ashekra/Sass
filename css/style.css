@@ -1,5 +1,11 @@
 body {
   background-color: #d5c8a2; }
+  body nav > img {
+    display: block; }
+  body ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center; }
   body h1 {
     text-align: center;
     color: #2b86b9; }
