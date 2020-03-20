@@ -5,10 +5,10 @@ body {
     color: #2b86b9; }
     body h1:hover {
       color: #7abcd1; }
-    body h1 button {
+    body h1 .button {
       border-radius: 3px;
       background-color: #2b86b9; }
-      body h1 button a {
+      body h1 .button a {
         text-decoration: none;
         color: white; }
 
