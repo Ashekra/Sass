@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Charlotte;
+  src: url(Charlotte.ttf);
+}
+
 body {
    background-color: #d5c8a2;
    nav {
@@ -24,7 +29,7 @@ body {
                color: #fff;
                padding: 0%;
                font-size: 2em;
-               font-family: 'Crafty Girls', cursive;
+               font-family: Charlotte, sans-serif;
             }
          }
       }
