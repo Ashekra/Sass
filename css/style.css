@@ -3,9 +3,12 @@ body {
   body nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1%;
     overflow: hidden;
-    background-color: #333; }
+    background-color: #7abcd1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
     body nav ul img {
       display: block;
       width: 12%; }
@@ -16,7 +19,7 @@ body {
         text-decoration: none;
         text-align: center;
         color: #fff;
-        padding: 1%; }
+        padding: 0%; }
   body h1 {
     text-align: center;
     color: #2b86b9; }
