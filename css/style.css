@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333; }
+    background-color: #333;
+    display: inline; }
     body nav ul image {
       display: block;
       width: 12%; }
