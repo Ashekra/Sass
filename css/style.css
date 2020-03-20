@@ -59,7 +59,7 @@ body {
         color: white;
         font-family: Charlotte, sans-serif;
         font-size: 1.4em; }
-  body .footer {
+  body footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -67,7 +67,7 @@ body {
     background-color: #7abcd1;
     color: white;
     text-align: center; }
-    body .footer p {
+    body footer p {
       font-family: 'Charlotte', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
