@@ -6,9 +6,8 @@ body {
     src: url("font/charlotte.otf"); } }
   body nav img {
     display: block;
-    width: 50px;
-    height: 50px;
-    margin-right: 30%;
+    width: 70px;
+    height: 70px;
     float: left; }
   body nav ul {
     list-style-type: none;
@@ -17,7 +16,8 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: start;
-    align-items: center; }
+    align-items: center;
+    background-color: #2b86b9; }
     body nav ul li {
       display: inline; }
       body nav ul li a {
