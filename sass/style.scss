@@ -1,65 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab:100,200,300,400,500,600,700,800,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 @font-face {
    font-family: "Charlotte";
    src: url("../font/charlotte.otf");
-}
-
-$police-principale: 'Roboto';
-$police-titre: 'Roboto Condensed';
-$police-secondaire: 'Roboto Slab';
-$police-mono: 'Roboto Mono';
-$pp:$police-principale;
-$pt:$police-titre;
-$ps:$police-secondaire;
-$pm:$police-mono;
-
-$desktop-width: 992px;
-
-@mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
-    @content;
-  }
-}
-
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
-  }
-}
-
-$couleur-principal: #657429;
-$couleur-secondaire: #704529;
-$cp: $couleur-principal;
-$cs: $couleur-secondaire;
-
-%monplaceholder{
-    border:1px solid rgba(0,0,0,05);
-    border-radius: 20px 0;
-    padding: .5em;
-    font:{
-        weight: bold;
-        family:$pm;
-    }
-    color:#fff;
-}
-.block{
-    &-error{
-        @extend %monplaceholder;
-        background-color: red;
-    }
-    &-valid{
-        @extend %monplaceholder;
-        background-color: green;
-    }
-    &-warning{
-        @extend %monplaceholder;
-        background-color: orange;
-    }
-    &-info{
-        @extend %monplaceholder;
-        background-color: blue;
-    }
 }
 
 * {
