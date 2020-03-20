@@ -35,6 +35,7 @@ body {
         font-family: Charlotte, sans-serif; }
   body h1 {
     text-align: center;
+    padding: 2%;
     color: #2b86b9; }
     body h1:hover {
       color: #7abcd1; }
