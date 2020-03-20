@@ -7,7 +7,10 @@
 
 body {
    background-color: #d5c8a2;
-
+   @font-face {
+      font-family: Charlotte;
+      src: url("font/charlotte.otf");
+   }
    nav {
       img {
          display: block;
