@@ -34,7 +34,7 @@ body {
       text-align: center;
       color: #2b86b9;
       &:hover{
-      color: #7abcd1;
+         color: #7abcd1;
       }
    }
    #img {
@@ -50,6 +50,9 @@ body {
       background-color: #2b86b9;
       border: none;
       padding: 1%;
+      &:hover {
+         color: #7abcd1;
+      }
          a {
             text-decoration: none;
             color: white;

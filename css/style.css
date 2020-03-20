@@ -40,6 +40,8 @@ body {
       background-color: #2b86b9;
       border: none;
       padding: 1%; }
+      body #boubou .button:hover {
+        color: #7abcd1; }
       body #boubou .button a {
         text-decoration: none;
         color: white; }
