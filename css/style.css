@@ -45,7 +45,8 @@ body {
     margin-bottom: 5%; }
   body #boubou {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    vertical-align: middle; }
     body #boubou .button {
       border-radius: 3px;
       background-color: #2b86b9;
@@ -55,6 +56,7 @@ body {
         background-color: #7abcd1; }
       body #boubou .button a {
         text-decoration: none;
-        color: white; }
+        color: white;
+        font-family: Charlotte, sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

@@ -58,6 +58,7 @@ body {
    #boubou{
       display: flex;
       justify-content: center;
+      vertical-align: middle;
       .button {
       border-radius: 3px;
       background-color: #2b86b9;
@@ -69,6 +70,7 @@ body {
          a {
             text-decoration: none;
             color: white;
+            font-family: Charlotte, sans-serif;
          }
       }
    }
