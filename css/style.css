@@ -1,7 +1,10 @@
 body {
   background-color: #d5c8a2; }
-  body nav > img {
-    display: block; }
+  body nav > ul > img {
+    display: block;
+    width: 12%; }
+  body nav > li {
+    display: inline; }
   body ul li a {
     display: block;
     text-decoration: none;
