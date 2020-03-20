@@ -59,5 +59,14 @@ body {
         color: white;
         font-family: Charlotte, sans-serif;
         font-size: 1.4em; }
+  body .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7abcd1;
+    color: white;
+    text-align: center;
+    font-family: 'Charlotte', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
