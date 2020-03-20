@@ -1,17 +1,29 @@
 body {
    background-color: #d5c8a2;
-   nav > ul > img {
-      display: block;
-      width: 12%;
+   nav {
+      ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333;
+         image {
+            display: block;
+            width: 12%;
+         }
+         li {
+            display: inline;
+            a {
+               display: block;
+               text-decoration: none;
+               text-align: center;
+               color: white;
+               padding: 1%;
+            }
+         }
+      }
    }
-   nav > li {
-      display: inline;
-   }
-   ul li a {
-      display: block;
-      text-decoration: none;
-      text-align: center;
-   }
+
    h1 {
       text-align: center;
       color: #2b86b9;
