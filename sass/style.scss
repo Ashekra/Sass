@@ -14,6 +14,19 @@ $pt:$police-titre;
 $ps:$police-secondaire;
 $pm:$police-mono;
 
+$desktop-width: 992px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
 
 $couleur-principal: #657429;
 $couleur-secondaire: #704529;
