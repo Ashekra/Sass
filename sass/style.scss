@@ -6,13 +6,17 @@ body {
       &:hover{
       color: #7abcd1;
       }
-      }
-   .button {
-   border-radius: 3px;
-   background-color: #2b86b9;
-      a {
-         text-decoration: none;
-         color: white;
+   }
+   #boubou{
+      display: flex;
+      justify-content: center;
+      .button {
+      border-radius: 3px;
+      background-color: #2b86b9;
+         a {
+            text-decoration: none;
+            color: white;
          }
       }
+   }
 }
