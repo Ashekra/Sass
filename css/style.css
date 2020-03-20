@@ -7,7 +7,8 @@ body {
       color: #7abcd1; }
   body #img {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 5%; }
   body #boubou {
     display: flex;
     justify-content: center; }
