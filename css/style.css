@@ -1,3 +1,6 @@
+@font-face {
+  font-family: Charlotte;
+  src: url(Charlotte.otf); }
 body {
   background-color: #d5c8a2; }
   body nav ul {
