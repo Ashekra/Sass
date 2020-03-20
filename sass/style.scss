@@ -1,4 +1,9 @@
 
+@font-face {
+   font-family: "Charlotte";
+   src: url("font/charlotte.otf");
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -7,10 +12,7 @@
 
 body {
    background-color: #d5c8a2;
-   @font-face {
-      font-family: Charlotte;
-      src: url("font/charlotte.otf");
-   }
+   font-family: Charlotte;
    nav {
       img {
          display: block;
