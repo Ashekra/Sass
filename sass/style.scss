@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Charlotte;
+  src: local("Charlotte"),
+       url(Charlotte.ttf);
+}
+
 body {
    background-color: #d5c8a2;
    nav {
@@ -8,11 +14,12 @@ body {
          overflow: hidden;
          background-color: #7abcd1;
          display: flex;
-         justify-content: space-evenly;
+         justify-content: start;
          align-items: center;
          img {
             display: block;
             width: 6%;
+            margin-right: 30%;
          }
          li {
             display: inline;
@@ -22,7 +29,7 @@ body {
                text-align: center;
                color: #fff;
                padding: 0%;
-               font-size: 1.2em;
+               font-size: 2em;
                font-family: Charlotte, sans-serif;
             }
          }

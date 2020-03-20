@@ -1,3 +1,6 @@
+@font-face {
+  font-family: Charlotte;
+  src: local("Charlotte"), url(Charlotte.ttf); }
 body {
   background-color: #d5c8a2; }
   body nav ul {
@@ -7,11 +10,12 @@ body {
     overflow: hidden;
     background-color: #7abcd1;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center; }
     body nav ul img {
       display: block;
-      width: 6%; }
+      width: 6%;
+      margin-right: 30%; }
     body nav ul li {
       display: inline; }
       body nav ul li a {
@@ -20,7 +24,7 @@ body {
         text-align: center;
         color: #fff;
         padding: 0%;
-        font-size: 1.2em;
+        font-size: 2em;
         font-family: Charlotte, sans-serif; }
   body h1 {
     text-align: center;
