@@ -6,9 +6,9 @@ body {
     src: url("font/charlotte.otf"); } }
   body nav img {
     display: block;
-    width: 70px;
-    height: 70px;
-    float: left; }
+    width: 120px;
+    height: 120px;
+    margin-right: 5%; }
   body nav ul {
     list-style-type: none;
     margin: 0;
