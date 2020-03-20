@@ -15,9 +15,9 @@ body {
     padding: .5%;
     overflow: hidden;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    background-color: #2b86b9; }
+    background-color: #7abcd1; }
     body nav ul li {
       display: inline; }
       body nav ul li a {
@@ -26,7 +26,7 @@ body {
         text-align: center;
         color: #fff;
         padding: 0%;
-        font-size: 2em;
+        font-size: 4em;
         font-family: Charlotte, sans-serif; }
   body h1 {
     text-align: center;
