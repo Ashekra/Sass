@@ -66,7 +66,8 @@ body {
     width: 100%;
     background-color: #7abcd1;
     color: white;
-    text-align: center;
-    font-family: 'Charlotte', sans-serif; }
+    text-align: center; }
+    body .footer p {
+      font-family: 'Charlotte', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
